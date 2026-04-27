@@ -91,7 +91,13 @@ Instead of fixed visuals, this dashboard behaves like a system where metrics, ch
 
 ## 📷 Dashboard Preview
 
-![Dashboard Screenshot](images/dashboard_preview.png)
+![Dashboard Background 1](images/DBBG.png)
+![Dashboard Background 2](images/BG2.png)
+
+![Dashboard Home](images/Dashboard_Home.png)
+![Filter By Profit](images/Filter_By_Profit.png)
+![Top N Filter](images/Top_N_Products_By_Metric.png)
+
 ---
 
 ## 🧠 What I Learned
