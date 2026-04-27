@@ -109,7 +109,7 @@ Instead of fixed visuals, this dashboard behaves like a system where metrics, ch
 
 #### Profit Filter View
 
-![Filter By Profit](images/Filter_By_Profit.png)
+![Filter By Profit](images/Filtey_By_Profit.png)
 
 #### Top N Analysis
 
