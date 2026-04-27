@@ -8,7 +8,9 @@ An interactive data visualization project built using **Tableau** to analyze Ama
 
 This project explores SaaS sales performance on Amazon through a highly interactive and dynamic dashboard. The goal is to allow users to explore data like a **live analytical tool**, rather than a static report.
 
-Instead of fixed visuals, this dashboard behaves like a system where metrics, charts, and even labels adapt based on user input.
+Instead of fixed visuals, this dashboard behaves like a system where metrics, charts, and labels adapt based on user input. This makes it easier to analyze performance trends, compare categories, and identify key business insights without working directly with raw data.
+
+👉 This dashboard is designed to help decision-makers quickly identify high-performing products, optimize sales strategy, and understand trends without requiring raw data analysis.
 
 ---
 
@@ -22,40 +24,40 @@ Instead of fixed visuals, this dashboard behaves like a system where metrics, ch
   * Profit
   * Quantity
 * All charts in the dashboard update instantly based on the selected metric
-* This includes not just values, but full chart behavior and comparisons
+* Not only values, but overall comparisons and visual behavior change dynamically
 
-👉 This essentially turns one dashboard into multiple analytical perspectives.
+👉 This effectively turns one dashboard into multiple analytical perspectives.
 
 ---
 
 ### 📊 Dynamic Titles & Axis Labels
 
 * Graph **titles automatically update** based on selected metric (Sales / Profit / Quantity)
-* Even **axis labels change dynamically**, keeping the dashboard context-aware
-* Ensures the dashboard always “explains itself” without confusion
+* Even **axis labels change dynamically**, ensuring full context clarity
+* The dashboard always reflects the currently selected metric without confusion
 
-👉 This improves readability and makes the dashboard feel intelligent rather than static.
+👉 This makes the dashboard self-explanatory and context-aware.
 
 ---
 
 ### 🔝 Top N Analysis Control
 
 * A **custom Top N parameter** allows users to control how many top-performing items are displayed
-* Works across categories/products dynamically
-* Helps focus on high-impact data instead of cluttered full datasets
+* Works across categories and products dynamically
+* Helps focus on high-impact insights instead of cluttered full datasets
 
 ---
 
 ### 📅 Time-Based Filtering
 
-* Year filter allows users to analyze performance across different time periods
-* Enables trend analysis and yearly comparisons
+* Year filter enables analysis across different time periods
+* Supports trend analysis and yearly performance comparison
 
 ---
 
 ### 🎯 Interactive Dashboard Elements
 
-* Filters for slicing data (country,industry etc.)
+* Filters for slicing data (country, industry, etc.)
 * Highlight actions for better visual pattern recognition
 * Cross-filtering between charts for connected exploration
 
@@ -63,15 +65,15 @@ Instead of fixed visuals, this dashboard behaves like a system where metrics, ch
 
 ## 🎨 Visual Design
 
-* Custom dashboard background designed in **Figma** inspired from neumorphism.
+* Custom dashboard background designed in **Figma**, inspired by neumorphism
 * Clean and structured layout for better analytical readability
-* Consistent visual hierarchy for professional dashboard experience
+* Consistent visual hierarchy for professional dashboard presentation
 
 ---
 
 ## 📌 Insights Covered
 
-* Top KPI Metrics
+* Key KPI summary (Sales, Profit, Quantity)
 * Sales, Profit, and Quantity performance trends
 * Category-wise and product-wise comparisons
 * Top-performing and low-performing segments
@@ -91,12 +93,27 @@ Instead of fixed visuals, this dashboard behaves like a system where metrics, ch
 
 ## 📷 Dashboard Preview
 
-![Dashboard Background 1](images/DBBG.png)
+### 🖼️ Dashboard Background
+
+![Dashboard Background](images/DBBG.png)
+
 ![Dashboard Background 2](images/BG2.png)
 
+---
+
+### 📊 Main Dashboard Views
+
+#### Home Dashboard
+
 ![Dashboard Home](images/Dashboard_Home.png)
+
+#### Profit Filter View
+
 ![Filter By Profit](images/Filter_By_Profit.png)
-![Top N Filter](images/Top_N_Products_By_Metric.png)
+
+#### Top N Analysis
+
+![Top N Products](images/Top_N_Products_By_Metric.png)
 
 ---
 
@@ -105,23 +122,24 @@ Instead of fixed visuals, this dashboard behaves like a system where metrics, ch
 * Building **parameter-driven dynamic dashboards**
 * Creating adaptive visualizations that change contextually
 * Implementing dynamic titles and axis logic in Tableau
-* Designing dashboards that behave like interactive products, not reports
-* Combining UI design (Figma) with data storytelling (Tableau)
+* Designing dashboards that behave like interactive analytical products
+* Combining UI/UX design (Figma) with data storytelling (Tableau)
 
 ---
 
 ## 📂 Project Structure
 
-```
+```bash
 📁 Amazon-SaaS-Sales-Dashboard
  ┣ 📊 Tableau Workbook (.twbx)
- ┣ 🖼️ Images/Dashboard Background Image
- ┣ 📷 Images/Dashboard Screenshots
+ ┣ 🖼️ images/ (backgrounds + screenshots)
+ ┣ 📷 dashboard screenshots
  ┗ 📄 README.md
 ```
 
+---
+
 ## ⚡ Final Note
 
-This project is designed to go beyond static visualization and behave like an **interactive analytics system**. Every element—from metrics to labels—adapts based on user input, making exploration intuitive and insightful.
+This project goes beyond static visualization and behaves like an **interactive analytics system**. Every element—from metrics to labels—adapts based on user input, making exploration intuitive, flexible, and insight-driven.
 
----
